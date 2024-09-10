@@ -7,7 +7,6 @@ const client = new Client({
 
 client.once('ready', () => {
   console.log(`Eingeloggt als ${client.user.tag}`);
-  console.log(`Eingeloggt als ${client.user.tag}`);
 });
 
 client.on('interactionCreate', async (interaction) => {
